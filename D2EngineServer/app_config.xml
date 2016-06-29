@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- You can reference the doc 'ConfigForSystemManager.docx and The step of system integration config.docx'when you modify this xml file
+	 Location:$/MCSF/Doc/Mcsf_Container
+-->
+<!-- Root node. Needn't modify -->
+<AppConfig>
+  <LogConfig>
+	  <!--
+	       0: off
+               1: err
+               2: info
+	    -->
+	  <Level>2</Level>
+  </LogConfig>
+
+</AppConfig>

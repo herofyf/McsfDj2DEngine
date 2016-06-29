@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Web2DEngineSdk.Engine2DSdk">
+    <Position X="0.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAAAAAAAACAAAEAFABABAgAABSAACAAAAFAA=</HashCode>
+      <FileName>Engine2DSdk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Web2DEngineSdk.IImageInstance">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIAAAAAAAAEAAiAAAQIgAAQAAAAAAABAAAIABAACg=</HashCode>
+      <FileName>ImageInstance.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Web2DEngineSdk.IImageStreamHandler">
+    <Position X="7.25" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageStreamHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Web2DEngineSdk.ISiteCommentConfiguration">
+    <Position X="4" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SiteCommentConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Web2DEngineSdk.ISiteConfiguration">
+    <Position X="1" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SiteConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Web2DEngineSdk.IStudySeries">
+    <Position X="3.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAQIAAAAAAAAAAQAAAAkAQ=</HashCode>
+      <FileName>StudySeries.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

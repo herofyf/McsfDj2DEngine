@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AD23BB5C-C483-4726-9E30-A2C13A36CEBB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DJ2DEngineSDKCommunicationLib_CS</RootNamespace>
+    <AssemblyName>DJ2DEngineSDKCommunicationLib_CS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\UIH\bin_debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>..\..\..\..\..\UIH\bin_debug\Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIH.Mcsf.Core.ContaineeBase">
+      <HintPath>..\..\..\..\..\UIH\bin_debug\UIH.Mcsf.Core.ContaineeBase.dll</HintPath>
+    </Reference>
+    <Reference Include="UIH.Mcsf.Core.MemoryManagement">
+      <HintPath>..\..\..\..\..\UIH\bin_debug\UIH.Mcsf.Core.MemoryManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="UIH.Mcsf.Core.NetBase">
+      <HintPath>..\..\..\..\..\UIH\bin_debug\UIH.Mcsf.Core.NetBase.dll</HintPath>
+    </Reference>
+    <Reference Include="UIH.Mcsf.Core.Protocol.Message">
+      <HintPath>..\..\..\..\..\UIH\bin_debug\UIH.Mcsf.Core.Protocol.Message.dll</HintPath>
+    </Reference>
+    <Reference Include="UIH.Mcsf.Core.SystemEnvironmentConfig">
+      <HintPath>..\..\..\..\..\UIH\bin_debug\UIH.Mcsf.Core.SystemEnvironmentConfig.dll</HintPath>
+    </Reference>
+    <Reference Include="UIH.Mcsf.Log.ChangeLevel">
+      <HintPath>..\..\..\..\..\UIH\bin_debug\UIH.Mcsf.Log.ChangeLevel.dll</HintPath>
+    </Reference>
+    <Reference Include="UIH.Mcsf.Log.Logger">
+      <HintPath>..\..\..\..\..\UIH\bin_debug\UIH.Mcsf.Log.Logger.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DJ2EngineCLRContainerBase.cs" />
+    <Compile Include="DJ2EngineCLRContaineeBase.cs" />
+    <Compile Include="DJ2EngineConfigurator.cs" />
+    <Compile Include="mcsf_clr_ctn_log.cs" />
+    <Compile Include="mcsf_condition_variable_sync.cs" />
+    <Compile Include="mcsf_finish_job_event_handler.cs" />
+    <Compile Include="mcsf_job_finished_time_acquire_handler.cs" />
+    <Compile Include="mcsf_process_sys_info_collector.cs" />
+    <Compile Include="mcsf_reporter_handler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
